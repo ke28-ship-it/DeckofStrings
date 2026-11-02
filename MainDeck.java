@@ -2,9 +2,7 @@
 
 public class MainDeck{
 	public static void main(String[] args){
-		// Make a new deck
-		DeckofStrings deck1 = new DeckofStrings();
-		// Run the organize method
-		deck1.organize();
+		Card card1 = new Card();
+		card1.createCard("Diamonds", "king", 10);
 	}
 }
